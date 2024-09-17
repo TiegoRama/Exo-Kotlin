@@ -1,5 +1,8 @@
 // write your function here
+fun isGreater(a: Int, b: Int, c :Int, d: Int){
+    println(a+b > c+d)
 
+}
 fun main() {
     val number1 = readLine()!!.toInt()
     val number2 = readLine()!!.toInt()
